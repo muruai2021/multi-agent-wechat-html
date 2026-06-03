@@ -1,0 +1,163 @@
+<!--
+  wechat-html · 公众号文章完整样板
+  ─────────────────────────────────────────────────
+  复制此文件，重写 <h1> 主标和正文内容即可
+  容器宽度 max-width:680px;  内部基准 327px（手机端）
+  设计令牌：#B66B45（橙） / #F2E5DA（浅橙） / #f5f5f5（浅灰） / #1a1a1a（标题黑）
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>文章标题</title>
+</head>
+<body style="margin:0;padding:0;background:#fafafa;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+
+<!-- ============ 封面 ============ -->
+<div style="max-width:680px;margin:0 auto;padding:56px 24px 44px;background:#fff;text-align:center;">
+  <p style="font-size:11px;letter-spacing:1.5px;color:#aaa;margin:0 0 24px;">出 品 &nbsp;·&nbsp; <span style="color:#777;">木 汝 科 技</span> &nbsp; Muru AI</p>
+  <p style="font-size:11px;letter-spacing:3px;color:#999;margin:0 0 20px;">SECTION CAPS LABEL</p>
+  <h1 style="font-size:26px;font-weight:700;color:#1a1a1a;line-height:1.4;margin:0 0 14px;">主标（26px 700）</h1>
+  <p style="font-size:14px;color:#666;line-height:1.8;margin:0 0 28px;">副标第一行<br>副标第二行 · 关键摘要</p>
+  <p style="font-size:13px;color:#B66B45;margin:0 0 6px;">橙色金句 1（13px 主色）</p>
+  <p style="font-size:13px;color:#B66B45;margin:0;">橙色金句 2（13px 主色）</p>
+</div>
+
+<!-- ============ 主内容 ============ -->
+<div style="max-width:680px;margin:0 auto;padding:0 24px 32px;background:#fff;">
+
+  <!-- 卷首语：导读框（浅橙底 + 左侧色条） -->
+  <p style="font-size:14px;color:#444;line-height:2;margin:32px 0;padding:16px;background:#F2E5DA;border-left:4px solid #B66B45;">
+    一句话总结这篇文章要讲什么。<strong>加粗</strong>关键概念。
+  </p>
+
+  <!-- ============ 章节大标 ============ -->
+  <h2 style="font-size:18px;font-weight:700;color:#1a1a1a;margin:36px 0 14px;padding-bottom:8px;border-bottom:2px solid #1a1a1a;">一、章节标题</h2>
+
+  <!-- 正文段落 -->
+  <p style="font-size:13px;color:#555;line-height:2;margin:0 0 16px;">
+    正文段落，line-height 2 保证手机端阅读舒适。
+  </p>
+
+  <!-- 2×2 卡片网格（4 个并列项） -->
+  <table style="width:100%;border-collapse:collapse;font-size:12px;border:1px solid #e0e0e0;margin-bottom:16px;">
+    <tr>
+      <td style="width:50%;padding:14px 12px;text-align:center;border:1px solid #e0e0e0;background:#F2E5DA;">
+        <div style="display:inline-block;width:22px;height:22px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:22px;font-size:11px;font-weight:700;margin-bottom:6px;">1</div>
+        <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">项 1 标题</div>
+        <div style="font-size:11px;color:#999;line-height:1.5;">描述</div>
+      </td>
+      <td style="width:50%;padding:14px 12px;text-align:center;border:1px solid #e0e0e0;background:#F2E5DA;">
+        <div style="display:inline-block;width:22px;height:22px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:22px;font-size:11px;font-weight:700;margin-bottom:6px;">2</div>
+        <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">项 2 标题</div>
+        <div style="font-size:11px;color:#999;line-height:1.5;">描述</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="width:50%;padding:14px 12px;text-align:center;border:1px solid #e0e0e0;background:#F2E5DA;">
+        <div style="display:inline-block;width:22px;height:22px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:22px;font-size:11px;font-weight:700;margin-bottom:6px;">3</div>
+        <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">项 3 标题</div>
+        <div style="font-size:11px;color:#999;line-height:1.5;">描述</div>
+      </td>
+      <td style="width:50%;padding:14px 12px;text-align:center;border:1px solid #e0e0e0;background:#F2E5DA;">
+        <div style="display:inline-block;width:22px;height:22px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:22px;font-size:11px;font-weight:700;margin-bottom:6px;">4</div>
+        <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">项 4 标题</div>
+        <div style="font-size:11px;color:#999;line-height:1.5;">描述</div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ============ 子节标 + 代码块 ============ -->
+  <p style="font-size:14px;font-weight:700;color:#B66B45;margin:24px 0 6px;">① 子节标</p>
+  <p style="font-size:13px;color:#555;line-height:2;margin:0 0 6px;"><strong style="color:#1a1a1a;">命令说明：</strong></p>
+  <p style="font-size:11px;line-height:1.7;margin:0 0 16px;padding:12px 14px;background:#B66B45;color:#fff;font-family:Menlo,Monaco,Consolas,monospace;border-left:3px solid #ffffff;word-break:break-all;">
+    # 完整路径：~/.claude/skills/xxx/scripts/<br>
+    $ mkdir my-new-vault<br>
+    $ node init.js \<br>
+    &nbsp;&nbsp;--path . --name "新知识库"
+  </p>
+
+  <!-- 跨库铁律块（橙底白字） -->
+  <p style="font-size:13px;color:#fff;line-height:2;margin:0;padding:14px 16px;background:#B66B45;">
+    <strong>规则标题。</strong><br>
+    <span style="color:#ffffff;font-weight:700;">✕</span> 不许 XXX<br>
+    <span style="color:#ffffff;font-weight:700;">✕</span> 不许 YYY<br>
+    <span style="color:#ffffff;font-weight:700;">✓</span> 真要 X，先打招呼
+  </p>
+
+  <!-- ============ 长引言块（大引号） ============ -->
+  <table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;margin:0 0 28px;background:#F2E5DA;">
+    <tr>
+      <td style="width:56px;padding:18px 0 14px 12px;font-family:Georgia,'Times New Roman',serif;font-size:54px;font-weight:700;color:#B66B45;line-height:1;vertical-align:top;text-align:center;">&ldquo;</td>
+      <td style="padding:18px 16px 14px 0;vertical-align:top;">
+        <p style="font-size:13px;color:#555;line-height:1.7;margin:0 0 8px;"><strong>作者：</strong></p>
+        <p style="font-size:14px;color:#1a1a1a;line-height:1.7;margin:0 0 8px;font-weight:500;">英文引言第一行<br>第二行<br>第三行</p>
+        <p style="font-size:12px;color:#666;line-height:1.6;margin:0;">—— 中文翻译</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ============ 单列卡片堆叠（N 个并列项） ============ -->
+  <table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px;">
+    <tr>
+      <td style="padding:14px 12px;background:#F2E5DA;width:48px;text-align:center;vertical-align:top;border-bottom:1px solid #e0e0e0;">
+        <div style="display:inline-block;width:28px;height:28px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:28px;font-size:13px;font-weight:700;">1</div>
+      </td>
+      <td style="padding:14px 16px;background:#F2E5DA;vertical-align:top;border-bottom:1px solid #e0e0e0;">
+        <div style="font-size:15px;font-weight:700;color:#1a1a1a;margin-bottom:6px;">第 1 项标题</div>
+        <div style="font-size:12px;color:#555;line-height:1.6;margin-bottom:4px;"><span style="color:#999;">字段 1：</span>...</div>
+        <div style="font-size:12px;color:#555;line-height:1.6;"><span style="color:#B66B45;font-weight:600;">字段 2：</span>...</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:14px 12px;background:#ffffff;width:48px;text-align:center;vertical-align:top;border-bottom:1px solid #e0e0e0;">
+        <div style="display:inline-block;width:28px;height:28px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:28px;font-size:13px;font-weight:700;">2</div>
+      </td>
+      <td style="padding:14px 16px;background:#ffffff;vertical-align:top;border-bottom:1px solid #e0e0e0;">
+        <div style="font-size:15px;font-weight:700;color:#1a1a1a;margin-bottom:6px;">第 2 项标题</div>
+        <div style="font-size:12px;color:#555;line-height:1.6;margin-bottom:4px;"><span style="color:#999;">字段 1：</span>...</div>
+        <div style="font-size:12px;color:#555;line-height:1.6;"><span style="color:#B66B45;font-weight:600;">字段 2：</span>...</div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- 资源链接列表 -->
+  <p style="font-size:14px;font-weight:700;color:#B66B45;margin:24px 0 8px;">资源链接：</p>
+  <p style="font-size:13px;color:#555;line-height:2;margin:0 0 4px;"><span style="color:#B66B45;font-weight:700;margin-right:6px;">◆</span><a href="https://example.com" style="color:#1a1a1a;text-decoration:none;border-bottom:1px solid #B66B45;">链接文字</a></p>
+
+  <!-- ============ 核心结论 ============ -->
+  <h2 style="font-size:18px;font-weight:700;color:#1a1a1a;margin:36px 0 14px;padding-bottom:8px;border-bottom:2px solid #1a1a1a;">核心结论</h2>
+
+  <p style="font-size:13px;color:#333;line-height:2;margin:0 0 8px;padding:8px 12px;background:#f5f5f5;border-left:3px solid #B66B45;">
+    <span style="display:inline-block;width:20px;height:20px;background:#B66B45;color:#fff;border-radius:50%;text-align:center;line-height:20px;font-size:11px;margin-right:8px;vertical-align:middle;">1</span><strong>结论标题</strong><br>
+    <span style="font-size:12px;color:#555;padding-left:24px;">二级描述行（手机端友好缩进 24px）</span>
+  </p>
+
+  <!-- 卷末金句（橙底引出 + 浅橙大字号） -->
+  <p style="font-size:14px;color:#fff;line-height:2;margin:0 0 8px;padding:14px 16px;background:#B66B45;">
+    <span style="font-weight:700;">核心就四个字——</span>
+  </p>
+  <p style="font-size:18px;color:#B66B45;line-height:2;margin:0 0 16px;padding:14px 16px;background:#F2E5DA;text-align:center;">
+    <span style="font-weight:700;font-size:22px;letter-spacing:0.3em;">职 责 分 离</span>
+  </p>
+
+</div>
+
+<!-- ============ 封底（呼应封面） ============ -->
+<div style="max-width:680px;margin:0 auto;padding:56px 24px 44px;background:#fff;text-align:center;">
+  <p style="font-size:11px;letter-spacing:3px;color:#999;margin:0 0 20px;">F I N I S &nbsp;·&nbsp; 尾 页</p>
+  <h2 style="font-size:26px;font-weight:700;color:#1a1a1a;line-height:1.4;margin:0 0 14px;">回扣封面叙事的主标</h2>
+  <p style="font-size:14px;color:#666;line-height:1.8;margin:0 0 28px;">副标（复用封面结构）<br>对仗句</p>
+  <p style="font-size:13px;color:#B66B45;margin:0 0 6px;">橙色金句 1</p>
+  <p style="font-size:13px;color:#B66B45;margin:0;">橙色金句 2</p>
+</div>
+
+<!-- ============ 底部信息 ============ -->
+<div style="max-width:680px;margin:0 auto;padding:0 24px 40px;background:#fff;text-align:center;">
+  <p style="font-size:11px;letter-spacing:1.5px;color:#aaa;margin:0 0 14px;padding-top:24px;border-top:1px solid #eee;">出 品 &nbsp;·&nbsp; <span style="color:#777;">木 汝 科 技</span> &nbsp; Muru AI</p>
+  <p style="font-size:12px;color:#999;margin:0 0 6px;">文章标题 · 一句话定位</p>
+  <p style="font-size:11px;color:#ccc;margin:0;">技术栈说明（11px 浅灰）</p>
+</div>
+
+</body>
+</html>

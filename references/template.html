@@ -1,0 +1,91 @@
+<!--
+  LEGACY: 排版请优先调用 wechat-html skill（~/.claude/skills/wechat-html/）
+  本模板使用蓝色 #3b82f6 主题，与新设计语言（爱马仕橙 #B66B45）不一致
+  新流程（multi-agent-wechat v1.1+）不再使用此模板
+  仅在紧急兜底场景下使用
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>{标题}</title>
+</head>
+<body style="margin:0;padding:0;background:#fafafa;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+
+<!-- 封面 -->
+<div style="max-width:680px;margin:0 auto;padding:48px 24px 40px;background:#fff;text-align:center;">
+  <p style="font-size:11px;letter-spacing:3px;color:#3b82f6;margin:0 0 20px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{标签}</p>
+  <h1 style="font-size:26px;font-weight:700;color:#1a1a1a;line-height:1.4;margin:0 0 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{主标题}</h1>
+  <p style="font-size:15px;color:#3b82f6;font-weight:600;margin:0 0 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{副标题}</p>
+  <p style="font-size:13px;color:#666;line-height:1.8;margin:0 0 28px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{描述}</p>
+  <p style="font-size:13px;color:#555;line-height:1.9;margin:0;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;padding:14px 20px;background:#f5f8ff;border-left:4px solid #3b82f6;text-align:left;">
+    {核心命题}
+  </p>
+</div>
+
+<!-- 主内容 -->
+<div style="max-width:680px;margin:0 auto;padding:0 24px 32px;background:#fff;">
+
+  <!-- 导读 -->
+  <p style="font-size:14px;color:#444;line-height:2;margin:32px 0;padding:16px;background:#f5f8ff;border-left:4px solid #3b82f6;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+    {导读内容}
+  </p>
+
+  <!-- 一级标题 -->
+  <h2 style="font-size:18px;font-weight:700;color:#1a1a1a;margin:36px 0 14px;padding-bottom:8px;border-bottom:2px solid #1a1a1a;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{章节标题}</h2>
+
+  <!-- 二级标题 -->
+  <p style="font-size:14px;font-weight:700;color:#1a1a1a;margin:20px 0 10px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{小节标题}</p>
+
+  <!-- 正文段落 -->
+  <p style="font-size:13px;color:#555;line-height:2;margin:0 0 16px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+    {正文内容}
+  </p>
+
+  <!-- 引用块 -->
+  <p style="font-size:13px;color:#333;line-height:2;margin:0 0 16px;padding:12px;background:#f5f8ff;border-left:4px solid #3b82f6;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+    <strong>{强调内容}</strong>
+  </p>
+
+  <!-- 金句块（深色背景） -->
+  <p style="font-size:14px;color:#1a1a1a;font-weight:700;margin:0 0 16px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;padding:14px 16px;background:#1a1a1a;">
+    <span style="color:#fff;">{金句内容}</span>
+  </p>
+
+  <!-- 表格 -->
+  <table style="width:100%;border-collapse:collapse;font-size:12px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;border:1px solid #e0e0e0;margin-bottom:16px;">
+    <tr>
+      <td style="padding:9px 10px;background:#f5f5f5;color:#666;font-weight:600;border-bottom:1px solid #e0e0e0;">{表头1}</td>
+      <td style="padding:9px 10px;background:#f5f5f5;color:#666;font-weight:600;border-bottom:1px solid #e0e0e0;">{表头2}</td>
+      <td style="padding:9px 10px;background:#f5f5f5;color:#666;font-weight:600;border-bottom:1px solid #e0e0e0;">{表头3}</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#3b82f6;font-weight:600;">{内容1}</td>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#333;">{内容2}</td>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#666;">{内容3}</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#666;font-weight:600;">{内容4}</td>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#333;">{内容5}</td>
+      <td style="padding:9px 10px;border-bottom:1px solid #eee;color:#666;">{内容6}</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 10px;color:#666;font-weight:600;">{内容7}</td>
+      <td style="padding:9px 10px;color:#333;">{内容8}</td>
+      <td style="padding:9px 10px;color:#666;">{内容9}</td>
+    </tr>
+  </table>
+
+  <!-- 分隔符 -->
+  <p style="font-size:11px;color:#ccc;text-align:center;margin:40px 0 0;padding:16px 0;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">━━━━━ ● ━━━━━</p>
+
+</div>
+
+<!-- 底部 -->
+<div style="max-width:680px;margin:0 auto;padding:20px 24px 40px;background:#fff;text-align:center;">
+  <p style="font-size:12px;color:#999;margin:0 0 6px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{文章标题}</p>
+  <p style="font-size:11px;color:#ccc;margin:0;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">{来源说明}</p>
+</div>
+
+</body>
+</html>
