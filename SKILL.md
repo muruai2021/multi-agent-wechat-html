@@ -1,6 +1,6 @@
 ---
 name: multi-agent-wechat-html
-description: 多 Agent 公众号写作 + HTML 排版。触发场景：多 Agent 写作、/创作 [主题]、写文章、公众号文章、帮我写一篇。完整工作流：主编出"主题三件套"→ 用户确认 → 调研+评估并行 → 写手出稿（去 AI 味 + 0 第一人称）→ 6 维度评审（120 分制）→ 5 大排版模式渲染 → verify.sh 跑 12 项验证 → D:\wechat\排版\ 归档。
+description: Use when 需要创作公众号文章、写文章、/创作 [主题]、多Agent写作，或需要对文章进行HTML排版和去AI味优化。
 version: 3.0.0
 author: Muru AI
 license: MIT
@@ -58,6 +58,7 @@ Step 1  主编出"主题三件套"
 Step 2  并行启动：调研员 + 评估员
         ↓
 Step 3  写手出初稿
+        ├─ 主编【必须完整告知写手预审 6 条】（见 agents.md「预审清单告知》节）
         ├─ 套用 Step 1 三件套
         ├─ 套用 Step 2 素材
         └─ 强约束：去 AI 味 + 去第一人称 + 人味细节 + 结构化
