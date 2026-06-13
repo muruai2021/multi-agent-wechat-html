@@ -73,8 +73,8 @@ Step 5  5 大排版模式渲染（主编执行）
         - 封面/封底对仗
         - 2×2 卡片网格 / 单列卡片堆叠 / 章节大标 / 核心结论
         ↓
-Step 6  verify.sh 跑 12 项验证 + D 盘归档
-        - 全 PASS → 输出 `D:\wechat\排版\{标题}.html`
+Step 6  verify.sh 跑 12 项验证 + 当前目录归档
+        - 全 PASS → 输出 `{cwd}/articles/{标题}.html`
         - 有 FAIL → 修完重跑
 ```
 
@@ -228,15 +228,14 @@ bash ~/.claude/skills/multi-agent-wechat-html/verify.sh <article.html>
 
 ## 输出路径
 
-**所有由本 skill 产出的文章 HTML，统一保存到：**
+**所有由本 skill 产出的文章 HTML，统一保存到当前工作目录的 `articles/` 子目录：**
 
 ```
-D:\wechat\排版\
+{cwd}/articles/
 ```
 
-- **Windows**（主力）：直接使用
-- **macOS / Linux**：主编应主动询问用户指定输出目录
 - **文件命名**：`{文章标题}.html`（中文标题保留原字符）
+- **首次使用**：主编在 Step 1 告知用户输出目录路径
 - **旧版直接覆盖**，无需按版本号管理
 
 ## 快捷指令
@@ -302,5 +301,5 @@ multi-agent-wechat-html/
 - [ ] references/test_pool.md 存在并包含 TC-009 ~ TC-015
 - [ ] 内部链接已更新为 references/ 路径
 - [ ] 评审 6 维度、AI 味诊断、结构化审计段齐全
-- [ ] 输出路径锁定 D:\wechat\排版\
+- [ ] 输出路径锁定 `{cwd}/articles/`
 - [ ] **verify.sh 跑 12 项 0 FAIL**

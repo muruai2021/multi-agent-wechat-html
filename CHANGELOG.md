@@ -22,7 +22,7 @@ multi-agent-wechat-html 公众号文章多 Agent 写作 + HTML 排版 skill 的�
 - ✅ AI 味诊断 + 结构化审计 段
 - ✅ 11 条已知陷阱 + 10 条最佳实践
 - ✅ TC-001 ~ TC-015 测试用例
-- ✅ D:\wechat\排版\ 输出路径
+- ✅ `{cwd}/articles/` 输出路径
 
 ### 从 wechat-html v1.0 继承
 

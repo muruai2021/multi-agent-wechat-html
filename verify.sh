@@ -9,7 +9,7 @@ if [ -z "$1" ]; then
   echo ""
   echo "示例:"
   echo "  $0 ../test-articles/Claudian_Obsidian_*.html"
-  echo "  $0 D:/wechat/排版/Dynamic-Workflow-Agent-范式跃迁.html"
+  echo "  $0 ./articles/Dynamic-Workflow-Agent-范式跃迁.html"
   exit 1
 fi
 

@@ -41,7 +41,7 @@ Step 4: Reviewer scores (6 dims × 20pts = 120pts)
       ↓
 Step 5: Layout (5 patterns applied)
          ↓
-Step 6: verify.sh + D:\wechat\排版\ archive
+Step 6: verify.sh + `{cwd}/articles/` archive
 ```
 
 ### Trigger Words
@@ -53,7 +53,7 @@ Any of these triggers the skill:
 
 ### Output Path
 
-All articles saved to `D:\wechat\排版\` (Windows; macOS/Linux requires user to specify).
+All articles saved to `{cwd}/articles/` (editor specifies output path at Step 1).
 
 ### Verification
 
@@ -114,7 +114,7 @@ Step 6: verify.sh 跑 12 项 + D 盘归档
 
 ### 输出路径
 
-`D:\wechat\排版\`（Windows 主力，macOS/Linux 需主编主动询问）
+`{cwd}/articles/`（主编在 Step 1 告知用户输出目录）
 
 ### 验证
 
